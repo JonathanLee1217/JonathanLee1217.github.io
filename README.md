@@ -92,4 +92,4 @@ Works in all modern browsers:
 
 ---
 
-Built with ❤️ for Jonathan Lee's portfolio
+Built with passion for Jonathan Lee's portfolio
