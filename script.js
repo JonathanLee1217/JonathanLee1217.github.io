@@ -40,12 +40,12 @@ document.querySelectorAll('.nav-links a').forEach(a => {
 // ── EmailJS Contact Form ──
 // To activate: replace 'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', 'YOUR_PUBLIC_KEY'
 // with your actual EmailJS credentials at https://www.emailjs.com
-emailjs.init('YOUR_PUBLIC_KEY');
+emailjs.init('CCm3dsTLd_2vKAsin');
 document.getElementById('contact-form').addEventListener('submit', function(e) {
   e.preventDefault();
   const status = document.getElementById('form-status');
   status.className = 'form-status';
-  emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
+  emailjs.sendForm('service_zccjgk7', 'template_q5yo4al', this)
     .then(() => {
       status.textContent = 'Message sent successfully! I will get back to you soon.';
       status.className = 'form-status success';
