@@ -45,7 +45,7 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
   e.preventDefault();
   const status = document.getElementById('form-status');
   status.className = 'form-status';
-  emailjs.sendForm('service_zccjgk7', 'template_q5yo4al', this)
+  emailjs.sendForm('service_zccjgk7', 'template_ukn37mg', this)
     .then(() => {
       status.textContent = 'Message sent successfully! I will get back to you soon.';
       status.className = 'form-status success';
