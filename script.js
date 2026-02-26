@@ -38,8 +38,6 @@ document.querySelectorAll('.nav-links a').forEach(a => {
 });
 
 // ── EmailJS Contact Form ──
-// To activate: replace 'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', 'YOUR_PUBLIC_KEY'
-// with your actual EmailJS credentials at https://www.emailjs.com
 emailjs.init('CCm3dsTLd_2vKAsin');
 document.getElementById('contact-form').addEventListener('submit', function(e) {
   e.preventDefault();
