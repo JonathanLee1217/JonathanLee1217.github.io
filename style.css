@@ -49,41 +49,6 @@ body { font-family: 'Poppins', sans-serif; color: var(--text); overflow-x: hidde
 
 /* ── HERO RIGHT LAYOUT ──────────────────── */
 .hero-right-layout {
-  display: flex; flex-direction: column; align-items: center; gap: 1.5rem;
-}
-.hero-photo-frame {
-  width: 280px; height: 280px; border-radius: 50%;
-  overflow: hidden;
-  border: 3px solid rgba(255,255,255,0.15);
-  box-shadow: 0 0 0 8px rgba(14,165,233,0.12), 0 20px 50px rgba(0,0,0,0.4);
-  flex-shrink: 0;
-}
-.hero-photo-frame img {
-  width: 100%; height: 100%; object-fit: cover; object-position: center 20%;
-}
-.hero-tool-logos {
-  display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.7rem;
-  background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 16px; padding: 1rem;
-  backdrop-filter: blur(8px);
-}
-.tool-logo {
-  width: 44px; height: 44px; border-radius: 10px;
-  background: rgba(255,255,255,0.07);
-  display: flex; align-items: center; justify-content: center;
-  transition: all 0.2s; cursor: default;
-  border: 1px solid rgba(255,255,255,0.1);
-}
-.tool-logo:hover {
-  background: rgba(14,165,233,0.2);
-  border-color: rgba(14,165,233,0.4);
-  transform: translateY(-2px);
-}
-.tool-logo img { width: 26px; height: 26px; object-fit: contain; }
-
-/* ── HERO RIGHT LAYOUT ──────────────────── */
-.hero-right-layout {
   position: relative;
   width: 440px; height: 440px;
   display: flex; align-items: center; justify-content: center;
